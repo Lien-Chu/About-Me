@@ -1,0 +1,116 @@
+body{
+    font-family: Josefin Sans;
+}
+
+.container {
+    background-color: rgb(241, 241, 238);
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.fotter {
+    height: 50px;
+    background-color: rgb(241, 241, 238);
+    width: auto;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+   font-size: 18px;
+   padding: 5px; 
+   text-decoration: blink;
+   text-align: left;
+   font-family: Josefin Sans;
+   font-weight: 350;
+   color: rgb(53, 73, 92);
+}
+
+img {
+    float: left;
+    margin-bottom: 100%;
+    border-radius: 80px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+h3 {
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(63, 76, 85);
+    color: white;
+}
+
+a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
+}
+
+.item {
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    align-items: center;
+}
+
+.intouch {
+    background-color: rgb(240, 219, 219);
+}
+
+.flexbox-container {
+    display: flex;
+    margin:10px 20px 10px 20px;
+}
+
+.flexbox-item-1 {
+    width: auto;
+    height: 100%;
+}
+
+.flexbox  {
+    height: min-content;
+     display: flex;
+     margin:10px 20px 10px 20px;
+ }
+
+.flexbox-item-2 {
+    height: 1fr;
+    width: 8fr;
+
+}
+
+.flexbox-item-3 {
+    height: 1fr;
+    width: 3fr;
+    margin-left: 50px;
+    text-align: right;
+}
+
+
+.error { 
+    font-family: font-family: Josefin Sans;
+    font-size: 30px;
+    text-align: center;
+}
+
+.error i {
+    font-size: 60px;
+    color: rgb(248, 80, 80);
+}
+
+.error p {
+    font-size: 60px;
+    color: rgb(248, 80, 80);
+    text-align: center;
+}
+
+.from {
+    display: flex;
+    
+}
