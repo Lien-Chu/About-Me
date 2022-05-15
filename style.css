@@ -114,3 +114,27 @@ a {
     display: flex;
     
 }
+
+
+.fa-brands:hover  {
+ animation: moveingBug;
+ animation: font;
+ animation-duration: 20s;
+ animation-iteration-count: 5;
+}
+
+.fa-solid:hover {
+ animation: moveingBug;
+ animation-duration: 10s;
+ animation-iteration-count: 5;
+}
+
+
+@keyframes moveingBug {
+    50% {transform: translate(100px,-20px);}
+}
+
+@keyframes font {
+     0%{font-size: 30px;}
+     50%{font-size: 200px;}
+}
