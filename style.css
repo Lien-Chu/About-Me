@@ -118,14 +118,14 @@ a {
 }
 
 
-.fa-brands:hover  {
+.fa-suse:hover  {
  animation: moveingBug;
  animation: font;
  animation-duration: 20s;
  animation-iteration-count: 5;
 }
 
-.fa-solid:hover {
+.fa-bugs:hover {
  animation: moveingBug;
  animation-duration: 10s;
  animation-iteration-count: 5;
