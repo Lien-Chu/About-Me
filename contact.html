@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
-        <script src="https://kit.fontawesome.com/d581a1ca1a.js" crossorigin="anonymous"></script>
-        <title>About Lien-Chu</title>
-        <link rel="stylesheet" href="style.css">
-        <nav class="container">
-            <a href="index.html">About me</a> &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
-            <a href="404.html">What I can do</a> &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
-            <a href="404.html">Contact me</a>
-        </nav>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script src="https://kit.fontawesome.com/d581a1ca1a.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="bird.svg" type="image.png">
+      <title>Contact Lien-Chu</title>
     </head>
+<header>
+  <nav>
+    <table class="nav" >
+      <th><a href="index.html">About me</a></th>
+      <th><a href="404.html">What I can do</a></th>
+      <th><a href="404.html">Contact me</a></th>
+    </table>
+  </nav>
+</header>
 <body>
            
-  <div class="form">
-    <form>
-      <input type="text" class="name" placeholder="Your name">
-      <input type="email" class="email" placeholder="Your E-mail">
-      <input type="text" class="subject" placeholder="Subject">
-      <input type="text" class="message"  placeholder="Your message">
-
+  <div class="form-container">
+ 
+    <form method="post" action="form-to-email.php"  class="form">
+      <input type="text" id="name" placeholder="Your Name" required name="name">
+      <br>
+      <input type="email" id="email" placeholder="youremail@mail.com" required name="email">
+      <br>
+      <input type="text" id="subject" placeholder="Subject" required name="subject">
+      <br>
+      <textarea id="message"  placeholder="What can I help you with?" rows="25"  required name="message"></textarea>
+      <br>
+      <button type="submit" name="sabmit" value="Send Form">Sent</button>
+      <div id="status" class="error">Success</div>
     </form>
+ </div>
 </body>
 </html>
