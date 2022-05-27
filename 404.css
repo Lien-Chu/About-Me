@@ -1,5 +1,6 @@
 * {
     font-family: Josefin Sans; 
+    letter-spacing: 0.5px;
     color: rgb(53, 73, 92);
     flex-direction: row; 
     justify-content: center;
@@ -14,43 +15,39 @@ nav {
     flex-direction: row; 
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
 nav th{
     width: 200px;
-    text-align: center;
 }
 
-footer a {
-    font-size: 13px;
-    }
-
- footer {
- text-align: right;
- margin-right: 30px;
-  font-size: 13px;
- }
- 
-.error { 
-    font-family: Josefin Sans;
-    font-size: 30px;
-    text-align: center;
+a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
+    text-decoration: none;
 }
 
-.error p {
-    font-size: 60px;
-    color: rgb(248, 80, 80);
-    text-align: center;
+a:hover {
+    color: darkseagreen;
 }
 
-.from {
+.container {
+    width: 100%;
+    height: 500px;
     display: flex;
-    
+    align-items: center;
+}
+
+footer p {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
 }
 
 .fa-suse {
-    font-size: 90px;
-    color: rgb(56, 161, 56);
+    font-size: 110px;
+    color: rgb(9, 158, 9);
 }
 
 .fa-bugs {
@@ -61,10 +58,10 @@ footer a {
 
 .fa-suse:hover {
  animation: moveing;
- animation-duration: 10s;
+ animation-duration: 15s;
  animation-iteration-count: 5;
 }
 
 @keyframes moveing {
-    50% {transform: translate(100px,20px);}
+    50% {transform: translate(500px,20px);}
 }

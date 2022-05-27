@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <script src="https://kit.fontawesome.com/d581a1ca1a.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="contact.css">
       <link rel="shortcut icon" href="bird.svg" type="image.png">
       <title>Contact Lien-Chu</title>
     </head>
@@ -14,27 +14,35 @@
   <nav>
     <table class="nav" >
       <th><a href="index.html">About me</a></th>
-      <th><a href="404.html">What I can do</a></th>
-      <th><a href="404.html">Contact me</a></th>
+      <th><a href="portfolio.html">My Portfolio</a></th>
+      <th><a href="contact.html">Contact me</a></th>
     </table>
   </nav>
 </header>
 <body>
            
-  <div class="form-container">
- 
-    <form method="post" action="form-to-email.php"  class="form">
+  <div class="container">
+    <div>
+    <form method="post" action="https://formspree.io/f/mlezzlnj" id="my-form" class="form">
+
       <input type="text" id="name" placeholder="Your Name" required name="name">
       <br>
       <input type="email" id="email" placeholder="youremail@mail.com" required name="email">
       <br>
       <input type="text" id="subject" placeholder="Subject" required name="subject">
       <br>
-      <textarea id="message"  placeholder="What can I help you with?" rows="25"  required name="message"></textarea>
+      <textarea id="message"  placeholder="What can I help you with?" rows="10"  required name="message"></textarea>
       <br>
-      <button type="submit" name="sabmit" value="Send Form">Sent</button>
-      <div id="status" class="error">Success</div>
+      <button type="submit" name="submit" value="Send Form">Sent</button>
+      &nbsp;&emsp;<div id="status"></div>
     </form>
+      </div>
+      
  </div>
+ <script src="contact.js"></script>
 </body>
+<hr>
+<footer>
+  <p><em>Copyright &copy; <em>LienChu 2022</em><br></p>
+ </footer>
 </html>

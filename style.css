@@ -1,5 +1,6 @@
 * {
     font-family: Josefin Sans; 
+    letter-spacing: 0.5px;
     color: rgb(53, 73, 92);
     flex-direction: row; 
     justify-content: center;
@@ -14,6 +15,17 @@ nav {
     flex-direction: row; 
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
+}
+
+#Lienchu {
+    margin: 40px 0 40px 0;
+}
+
+footer p{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
 }
 
 nav th{
@@ -23,9 +35,15 @@ nav th{
 
 .container {
     width: 800px;
-
 }
-table td, th{
+
+.flexbox-container {
+    width: auto;
+    height: 100%;
+    display: flex;
+    margin:10px 20px 10px 20px;
+}
+td, th{
     padding: 10px;
 }
 
@@ -39,26 +57,9 @@ td {
     font-size: 16px;
 }
 
-footer {
-    text-align: right;
-    margin-right: 30px;
-    font-size: 13px;
-}
-
-footer a {
-font-size: 13px;
-}
-
-p {
-   font-size: 16px;
-   padding: 5px; 
-   font-weight: 350;
-}
-
 img {
-    float: left;
-    margin: 40PX;
-    border-radius: 80px;
+    margin: 30PX;
+    border-radius: 30px;
 }
 
 h3 {
@@ -67,11 +68,13 @@ h3 {
     background-color: rgb(63, 76, 85);
     color: white;
     font-size: 16px;
+    border-radius: 3px;
 }
 
 a {
     font-size: 18px;
     color: rgb(53, 73, 92);
+    text-decoration: none;
 }
 
 a:hover {
@@ -82,21 +85,8 @@ a:hover {
     background-color: rgb(240, 219, 219);
 }
 
-.flexbox-container {
-    width: auto;
-    height: 100%;
-    display: flex;
-    margin:10px 20px 10px 20px;
-}
-
-i {
-    font-size: 30px;
-}
+i { font-size: 30px;}
 
 i:hover {
     color: darkseagreen;
-}
-
-@keyframes moveing {
-    50% {transform: translate(100px,20px);}
 }

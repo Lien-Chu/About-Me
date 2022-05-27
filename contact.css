@@ -1,48 +1,62 @@
-*{
-    font-family:Josefin Sans; 
-   
+* {
+    font-family: Josefin Sans; 
+    letter-spacing: 0.5px;
+    color: rgb(53, 73, 92);
+    flex-direction: row; 
+    justify-content: center;
+    text-align: left;
 }
+
 nav {
-    background-color: rgb(241, 241, 238);
-    width: 100%;
     height: 80px;
+    width: 100%;
+    background-color: rgb(241, 241, 238);
     display: flex;
     flex-direction: row; 
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
-.form-container {
-    background-image:url('https://unsplash.it/g/100');
-    background-repeat: no-repeat, repeat;
-    background-size: cover; 
-    height: 1000px;
-    width: auto;
-    min-width: auto;
+nav th{
+    width: 200px;
+}
+
+.container {
+    background-image: url('1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
     display: flex;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    display: inline-block;
+    flex-direction: row; 
     justify-content: center;
-    text-align: center;
-    flex-direction: column; 
+    text-align: left;
 }
 
 input,
 textarea {
-    width: 600px;
-    margin: 20px 20px 10px 50px;
+    width: 500px;
+    margin: 10px 20px 10px 50px;
     background-color: rgb(215, 224, 235);
     border: 2px solid rgb(226, 230, 233);
     color: rgb(53, 73, 92);
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
     border-radius: 5px;  
     padding: 10px;
-  
 }
 
 textarea {
     resize: vertical;
     padding: 10px;
     color: rgb(53, 73, 92);
-    font-size: 16px;
+    font-size: 17px;
 }
 
 input {
@@ -53,16 +67,15 @@ input {
 button[type="submit"] {
     background-color:  rgb(53, 73, 92);
     color: rgb(215, 224, 235);
-    width: 625px;
+    width: 520px;
     border: 2px solid;
     font-size: 18px;
     margin: 20px 20px 10px 50px;
     padding: 10px;
     border-radius: 5px;
     cursor:pointer;
+    text-align: center;
 }
-
-
 
 a {
     font-size: 18px;
@@ -85,8 +98,7 @@ button:hover {
 
 #status {
     width: 100%;
-    max-width: 625px;
-    border: 2px solid;
+    max-width: 500px;
     text-align: center;
     font-size: 18px;
     margin: 0 auto;
@@ -95,11 +107,37 @@ button:hover {
 }
 
 #status.success {
-background-color: cadetblue;
+background-color: rgb(68, 135, 105);
+color: rgb(255, 255, 255);
+border: 2px solid;
+animation-name: status;
+animation-duration: 4s;  
+animation-fill-mode: forwards;
 }
 
 #status.error {
     background-color: rgb(236, 157, 194);
+    color: rgb(157, 169, 179);
+    animation:status 4s ease forwards;
 }
 
+@keyframes status {
+   0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+   100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
 
+footer p {
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
+}

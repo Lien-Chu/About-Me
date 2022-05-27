@@ -1,5 +1,6 @@
 * {
     font-family: Josefin Sans; 
+    letter-spacing: 0.5px;
     color: rgb(53, 73, 92);
 }
 
@@ -11,18 +12,42 @@ nav {
     flex-direction: row; 
     justify-content: center;
     align-items: center;
+    border-radius: 3px;
 }
 
 nav th{
     width: 200px;
- 
+}
+
+nav a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
+    text-decoration: none;
+}
+
+th, td {
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkseagreen;
 }
 
 h1 {
     background-color: rgb(241, 241, 238);
     color: black;
-    width:400px;
+    width: 350px;
+    font-size: 28px;
+    height: 40px;
+    text-align: end;
+    padding-top: 50px;
+    border-radius: 5px;
 }
+
 .container {
     width: 100%;
     flex-direction: row; 
@@ -42,25 +67,6 @@ footer {
     font-size: 13px;
 }
 
-footer a {
-font-size: 13px;
-}
-
-
-background-image {
-    
-}
-
-#filmintroduktion {
-background-image: url('/1.jpg');
-border-radius: 10px;
-color: rgb(4, 43, 77);
-background-size: cover;
-height:150px;
-text-align: right;
-font-size: 20px;
-}
-
 img {
     width: 200px;
     border-radius: 10px;
@@ -72,6 +78,3 @@ footer {
     font-size: 13px;
 }
 
-footer a {
-font-size: 13px;
-}
