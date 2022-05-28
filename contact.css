@@ -1,6 +1,6 @@
 * {
     font-family: Josefin Sans; 
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     color: rgb(53, 73, 92);
     flex-direction: row; 
     justify-content: center;
@@ -69,12 +69,13 @@ button[type="submit"] {
     color: rgb(215, 224, 235);
     width: 520px;
     border: 2px solid;
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px 20px 10px 50px;
     padding: 10px;
     border-radius: 5px;
     cursor:pointer;
     text-align: center;
+    letter-spacing: 1.5px;
 }
 
 a {
@@ -94,31 +95,36 @@ button:hover {
 ::placeholder { 
     color: rgb(157, 169, 179);
     font-style: italic;
+    font-size: 16px;
 }
 
 #status {
     width: 100%;
-    max-width: 500px;
+    max-width: 495px;
     text-align: center;
     font-size: 18px;
     margin: 0 auto;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px; 
 }
 
 #status.success {
-background-color: rgb(68, 135, 105);
-color: rgb(255, 255, 255);
-border: 2px solid;
-animation-name: status;
-animation-duration: 4s;  
-animation-fill-mode: forwards;
+    background-color: rgb(61, 117, 93);
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 5px;
+    animation-name: status;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
 }
 
 #status.error {
-    background-color: rgb(236, 157, 194);
-    color: rgb(157, 169, 179);
-    animation:status 4s ease forwards;
+    background-color: rgb(225, 141, 179);
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-radius: 5px;
+    animation-name: status;
+    animation-duration: 4s;  
+    animation-fill-mode: forwards;
 }
 
 @keyframes status {

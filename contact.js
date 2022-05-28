@@ -14,7 +14,7 @@ async function handleSubmit(event) {
   }).then(response => {
     if (response.ok) {
         status.classList.add('success')
-      status.innerHTML = "Thanks for your submission!";
+      status.innerHTML = "Send Successfully, I will Contact You Shortly!";
       form.reset()
     } else {
       response.json().then(data => {
@@ -22,7 +22,7 @@ async function handleSubmit(event) {
             status.classList.add('error')
           status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
         } else {
-          status.innerHTML = "Oops! There was a problem submitting your form"
+          status.innerHTML = "Oops! Submission Failed...Please Try Again."
         }
       })
     }
