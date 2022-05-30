@@ -32,6 +32,7 @@ footer p{
     text-align: right;
     margin-right: 30px;
     font-size: 13px;
+    font-weight: lighter;
 }
 
 nav th{
@@ -48,6 +49,7 @@ nav th{
     height: 100%;
     display: flex;
 }
+
 table{
     padding-left: 20px;
 }
