@@ -50,7 +50,6 @@ h1 {
 
 .container {
     width: 100%;
-    flex-direction: row; 
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -61,6 +60,7 @@ table {
 margin: 50px;
 
 }
+
 footer {
     text-align: right;
     margin-right: 30px;
@@ -70,11 +70,5 @@ footer {
 img {
     width: 200px;
     border-radius: 10px;
-}
-
-footer {
-    text-align: right;
-    margin-right: 30px;
-    font-size: 13px;
 }
 

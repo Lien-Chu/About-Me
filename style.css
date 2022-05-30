@@ -2,20 +2,27 @@
     font-family: Josefin Sans; 
     letter-spacing: 0.5px;
     color: rgb(53, 73, 92);
-    flex-direction: row; 
-    justify-content: center;
-    text-align: left;
 }
 
 nav {
-    width: 100%;
     height: 80px;
+    width: 100%;
     background-color: rgb(241, 241, 238);
     display: flex;
     flex-direction: row; 
     justify-content: center;
     align-items: center;
     border-radius: 3px;
+}
+
+nav th{
+    width: 200px;
+}
+
+nav a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
+    text-decoration: none;
 }
 
 #Lienchu {
@@ -28,26 +35,21 @@ nav {
     padding-left: 20px ;
 }
 
-footer p{
-    text-align: right;
-    margin-right: 30px;
-    font-size: 13px;
-    font-weight: lighter;
-}
-
 nav th{
     width: 200px;
     text-align: center;
-}
-
-.container {
-    width: 600px;
 }
 
 .flexbox-container {
     width: auto;
     height: 100%;
     display: flex;
+   justify-content: center;
+}
+
+.container {
+    text-align: left;
+    width: 600px;
 }
 
 table{
@@ -97,4 +99,11 @@ i { font-size: 30px;}
 
 i:hover {
     color: darkseagreen;
+}
+
+footer p{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: lighter;
 }
