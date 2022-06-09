@@ -65,6 +65,10 @@ a:hover {
     font-size: 20px; 
 }
 
+h1:hover {
+    color: darkseagreen;
+}
+
 h1 {
     color:rgb(53, 73, 92);
     background-color: rgb(241, 241, 238);;
@@ -82,12 +86,6 @@ h1 {
     flex-direction: row; 
     justify-content: center;
     align-items: center;
-}
-
-.picture-link:hover {
-   
-    box-shadow: 2px 2px 2px 2px #92a2a8;
-    transition: 0.1s;  
 }
 
 img {
