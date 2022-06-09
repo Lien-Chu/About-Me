@@ -17,6 +17,7 @@ nav {
 
 nav th{
     width: 200px;
+    text-align: center;
 }
 
 nav a {
@@ -25,12 +26,29 @@ nav a {
     text-decoration: none;
 }
 
+
+a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkseagreen;
+    font-size: 20px; 
+}
+
+footer p{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
 .container {
-    
-    background-image: url('contact.jpg');
+    background-image: url('/img/contact.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 668px;
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -74,16 +92,6 @@ button[type="submit"] {
     cursor:pointer;
     text-align: center;
     letter-spacing: 1.5px;
-}
-
-a {
-    font-size: 18px;
-    color: rgb(53, 73, 92);
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkseagreen;
 }
 
 button:hover {
@@ -138,10 +146,4 @@ button:hover {
         opacity: 0;
         pointer-events: none;
     }
-}
-
-footer {
-    text-align: right;
-    margin-right: 30px;
-    font-size: 13px;
 }

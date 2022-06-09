@@ -17,6 +17,7 @@ nav {
 
 nav th{
     width: 200px;
+    text-align: center;
 }
 
 nav a {
@@ -25,46 +26,68 @@ nav a {
     text-decoration: none;
 }
 
-th, td {
-    padding: 1px 2px 1px 2px;
-}
 
 a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
     text-decoration: none;
 }
 
 a:hover {
     color: darkseagreen;
+    font-size: 20px; 
+}
+
+footer p{
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+
+table {
+    margin: 20px 20px 20px 10px;
+    padding: 20px;
+    }
+    
+th, td {
+    padding: 1px 2px 1px 2px;
+}
+
+a {
+    font-size: 18px;
+    color: rgb(53, 73, 92);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkseagreen;
+    font-size: 20px; 
 }
 
 h1 {
-    background-color: rgb(241, 241, 238);
-    color: black;
-    width: 350px;
-    font-size: 28px;
-    height: 40px;
+    color:rgb(53, 73, 92);
+    background-color: rgb(241, 241, 238);;
+    width: 330px;
+    font-size: 38px;
+    height: 90px;
     text-align: end;
-    padding-top: 50px;
     border-radius: 5px;
 }
 
 .container {
     width: 100%;
+    height: 700px;
     display: flex;
     flex-direction: row; 
     justify-content: center;
     align-items: center;
 }
 
-table {
-margin: 50px;
-
-}
-
-footer {
-    text-align: right;
-    margin-right: 30px;
-    font-size: 13px;
+.picture-link:hover {
+   
+    box-shadow: 2px 2px 2px 2px #92a2a8;
+    transition: 0.1s;  
 }
 
 img {
