@@ -91,12 +91,12 @@ td {
 }
 
 .icon th { 
-    width: 70px;
+    width: 90px;
     height: 50px;
 }
 
 #me {
-    margin: 40px 90px 20px 40px;
+    margin: 40px 40px 0 40px;
     border-radius: 20px;
 }
 
