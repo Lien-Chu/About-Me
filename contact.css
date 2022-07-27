@@ -1,7 +1,8 @@
 * {
-    font-family: Josefin Sans; 
+    font-family: Josefin Sans;
     letter-spacing: 0.5px;
     color: rgb(53, 73, 92);
+    box-sizing: border-box;
 }
 
 nav {
@@ -9,13 +10,13 @@ nav {
     width: 100%;
     background-color: rgb(241, 241, 238);
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
 }
 
-nav th{
+nav th {
     width: 200px;
     text-align: center;
 }
@@ -35,36 +36,55 @@ a {
 
 a:hover {
     color: darkseagreen;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
-footer p{
+footer p {
     text-align: right;
     margin-right: 30px;
     font-size: 13px;
 }
 
 .container {
-    background-image: url('/img/contact.jpg');
+    margin: 0 auto;
+    background-image: url('/img/moment6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 668px;
+    height: 80vh;
+    width: 70vw;
+    margin-top: 10px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+.form {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 0.342);
+    padding-top: 10px;
+    width: 60vw;
+    height: 70vh;
+}
+
+.form p {
+    margin-left: 45px;
+    padding-left: 25px;
+    font-size: 18px;
+    color: white;
+    width: 50vw;
+}
+
 input,
 textarea {
-    width: 500px;
-    margin: 10px 20px 10px 50px;
+    width: 40vw;
+    margin: 10px 20px 10px 70px;
     background-color: rgb(215, 224, 235);
     border: 2px solid rgb(226, 230, 233);
     color: rgb(53, 73, 92);
     font-size: 17px;
     font-weight: bold;
-    border-radius: 5px;  
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -76,20 +96,20 @@ textarea {
 }
 
 input {
-    height: 15px;
+    height:35px;
     color: rgb(53, 73, 92);
 }
 
 button[type="submit"] {
-    background-color:  rgb(53, 73, 92);
+    background-color: rgb(53, 73, 92);
     color: rgb(215, 224, 235);
-    width: 520px;
+    width: 40vw;
     border: 2px solid;
     font-size: 20px;
-    margin: 20px 20px 10px 50px;
+    margin: 20px 20px 10px 70px;
     padding: 10px;
     border-radius: 5px;
-    cursor:pointer;
+    cursor: pointer;
     text-align: center;
     letter-spacing: 1.5px;
 }
@@ -98,9 +118,9 @@ button:hover {
     color: darkseagreen;
 }
 
-::placeholder { 
+::placeholder {
     color: rgb(157, 169, 179);
-    font-style: italic;
+    font-weight: lighter;
     font-size: 16px;
 }
 
@@ -110,7 +130,7 @@ button:hover {
     text-align: center;
     font-size: 18px;
     margin: 0 auto;
-    padding: 10px; 
+    padding: 10px;
 }
 
 #status.success {
@@ -119,7 +139,7 @@ button:hover {
     border: 2px solid;
     border-radius: 5px;
     animation-name: status;
-    animation-duration: 4s;  
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
@@ -129,21 +149,115 @@ button:hover {
     border: 2px solid;
     border-radius: 5px;
     animation-name: status;
-    animation-duration: 4s;  
+    animation-duration: 4s;
     animation-fill-mode: forwards;
 }
 
 @keyframes status {
-   0% {
+    0% {
         opacity: 1;
         pointer-events: all;
     }
+
     90% {
         opacity: 1;
         pointer-events: all;
     }
-   100% {
+
+    100% {
         opacity: 0;
         pointer-events: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .form {
+        width: 45vw;
+    }
+
+    .form p {
+        width: 35vw;
+    }
+
+    input,
+    textarea {
+        width: 35vw;
+    }
+
+    button[type="submit"] {
+        width: 35vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+    
+    .container {
+        width: 40vw;
+    }
+
+    .form {
+        width: 35vw;
+    }
+
+    .form p {
+        width: 25vw;
+    }
+
+    input,
+    textarea {
+        width: 22vw;
+    }
+
+    button[type="submit"] {
+        width: 22vw;
+    }
+}
+
+@media (min-width: 1501px) and (max-width: 2500px) {
+    .container {
+        width: 35vw;
+    }
+
+    .form {
+        width: 25vw;
+    }
+
+    .form p {
+        width: 20vw;
+    }
+
+    input,
+    textarea {
+        width: 20vw;
+    }
+
+    button[type="submit"] {
+        width: 20vw;
+    }
+}
+
+
+@media (min-width: 2501px)  {
+    .container {
+        width: 30vw;
+    }
+
+    .form {
+        width: 22vw;
+    }
+
+    .form p {
+        width: 17vw;
+    }
+
+    input,
+    textarea {
+        width: 17vw;
+    }
+
+    button[type="submit"] {
+        width: 17vw;
     }
 }

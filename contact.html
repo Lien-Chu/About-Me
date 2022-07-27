@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
-      <link rel="stylesheet" href="contact.css">
-      <link rel="shortcut icon" href="img/bird.svg" type="image.png">
-      <title>Contact Lien-Chu</title>
-    </head>
+
+<head>
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+  <link rel="stylesheet" href="/contact.css">
+  <link rel="shortcut icon" href="/P2-22/img/triangle.svg" type="image.png">
+  <title>Contact Lien-Chu</title>
+</head>
+
 <body>
   <header>
     <nav>
-      <table class="nav" >
+      <table class="nav">
         <th><a href="index.html">About me</a></th>
         <th><a href="portfolio.html">My Portfolio</a></th>
         <th><a href="contact.html">Contact me</a></th>
       </table>
     </nav>
-  </header>      
+  </header>
   <div class="container">
-    <div>
-    <form method="post" action="https://formspree.io/f/mlezzlnj" id="my-form" class="form">
 
-      <input type="text" id="name" placeholder="Your Name" required name="name">
-      <br>
-      <input type="email" id="email" placeholder="youremail@mail.com" required name="email">
-      <br>
-      <input type="text" id="subject" placeholder="Subject" required name="subject">
-      <br>
-      <textarea id="message"  placeholder="What can I help you with?" rows="10"  required name="message"></textarea>
-      <br>
-      <button type="submit" name="submit" value="Send Form">Sent</button>
-      &nbsp;&emsp;<div id="status"></div>
-    </form>
-    <br><br><br>
-      </div>
-   </div>  
-    <br><br>
-    <hr>
+    <div class="form">
+      <p>Please leave your contact information and message, I will reply in the shortest time.</p>
+      <form method="post" action="https://formspree.io/f/mlezzlnj" id="my-form">
+        <input type="text" id="name" placeholder="Your Name" required name="name">
+        <br>
+        <input type="email" id="email" placeholder="youremail@mail.com" required name="email">
+        <br>
+        <input type="text" id="subject" placeholder="Subject" required name="subject">
+        <br>
+        <textarea id="message" placeholder="What can I help you with?" rows="10" required name="message"></textarea>
+        <br>
+        <button type="submit" name="submit" value="Send Form">Sent</button>
+        &nbsp;&emsp;<div id="status"></div>
+      </form>
+    </div>
+  </div>
+
+  <hr>
   <footer>
     <p><em>Copyright &copy; <em>LienChu 2022</em><br></p>
   </footer>
- <script src="contact.js"></script>
+  <script src="contact.js"></script>
 </body>
+
 </html>

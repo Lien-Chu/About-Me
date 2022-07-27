@@ -60,6 +60,7 @@ footer p{
 }
 
 .flexbox-container {
+    margin-top: 5px;
     width: auto;
     height: 100%;
     display: flex;
@@ -103,7 +104,8 @@ td {
 }
 
 h3 {
-padding: 10px 0 10px 0;
+    position: sticky;
+    padding: 10px 0 10px 0;
     width: 600px;
     background-color: rgb(63, 76, 85);
     color: white;
