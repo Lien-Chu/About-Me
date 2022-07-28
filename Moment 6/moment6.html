@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Images/triangle.svg" type="image.png">
+    <link rel="stylesheet" href="/Moment6_CSS/moment6.css">
+    <link rel="stylesheet" href="/Moment6_CSS/mement6-media-queries.css">
+    <title>Hemsida</title>
+</head>
+
+<body>
+    <h1>Välkomna Till Lien-Chus Hemsida</h1>
+    <div class="wrapper">
+        <form action="" class="formular">
+            <fieldset>
+                <legend>
+                    <h2> Logga in nedan </h2>
+                </legend>
+                <div class="inputdiv">
+                    <label for="">Användanamn:</label>
+                    <input id="username" type="text" placeholder="Vicky">
+                </div>
+                <div class="inputdiv">
+                    <label for="">Lösenord:</label>
+                    <input id="password" type="text" placeholder="12345">
+                </div>
+                <div class="buttons">
+                    <button type="button" id="btn" onclick="loggin()">Logga in</button>
+                    <button type="button">Avbryt</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+        <footer>
+            <p>Copy Right &copy; 2022 Lienchu Huang alla rättigheter reserverade</p>
+        </footer>
+   
+    <script>
+        var attempt = 3;
+        function loggin() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == "Vicky" && password == "12345") {
+                alert("Login lyckades!!\nVälkommen");
+                window.location.href = "/Moment 5/moment5.html";
+                return false;
+            }
+            else {
+                attempt--;
+                alert("Du har " + attemp + " försök kvar!");
+                if (attempt == 0) {
+                    document.getElementById("username").disable = "true";
+                    document.getElementById("password").disable = "true";
+                    document.getElementById("btn").disable = "true";
+                    return false;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

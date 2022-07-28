@@ -1,0 +1,172 @@
+body {
+    font-family: 'Josefin Sans';
+    letter-spacing: 0.3px;
+}
+.A {
+    width: 100%;
+    margin:0 auto;
+    height: 1200px;
+}
+.title {
+    top:0;
+    position: sticky;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0.1px 0.5px lightgray;
+    color: darkgreen;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 160px;
+}
+
+.uppgift-a {
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    height: 500px;
+    background-color: lightgray;
+}
+
+.uppgift-a h1 {
+    font-family: Arial;
+    color: darkgreen;
+    font-size: 25px;
+}
+
+.uppgift-a h2 {
+    font-family: Arial;
+    color: yellow;
+    font-size: 20px;
+}
+
+.uppgift-a p {
+    font-family: Verdana;
+    color: red;
+    font-size: 12px;
+}
+
+.uppgift-b {
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    height: 600px;
+    background-color: yellow;
+    line-height: 22px;
+}
+
+.span-red {
+    color: red;
+}
+
+.span-green {
+    color: darkgreen;
+}
+
+abbr {
+    color: red;
+}
+
+.uppgift-b p {
+    margin: 10px;
+    background-color:lightblue;
+}
+
+.wrap {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    color:  lightgray;
+    width: 400px;
+    height: 300px;
+    font-size: 20px; 
+}
+
+.container-2{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 200px;
+    font-size: 20px;
+    line-height: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    border: 8px solid  lightgray;
+    color: gray;
+    text-align: center;
+}
+
+.box-a1, .box-a2, .box-b1, .box-b2, .box-c1, .box-c2 {
+    position: absolute;
+}
+
+.box-a1, .box-a2, .box-a3{
+    background-color: yellow;
+}
+
+.box-b1, .box-b2, .box-b3 {
+    background-color: lightblue;
+}
+
+.box-c1, .box-c2, .box-c3 {
+    background-color: darkgreen;
+}
+ 
+.box-a1 {
+    top: 120px;
+    left: 60px;
+    line-height: 180px;
+    z-index: 0;
+}
+
+.box-b1 {
+    top: 50px;
+    left: 140px;
+    line-height: 40px;
+    z-index: 1;
+}
+
+.box-c1 {
+    top: 90px;
+    left: 110px;
+    line-height: 100px;
+    z-index: 2;
+}
+
+.box-a2 {
+    top: 110px;
+    left: 20px;
+    line-height: 150px;
+    z-index: 1;
+}
+
+.box-b2{
+    top: 50px;
+    left: 100px;
+    line-height: 105px;
+    z-index: 2;
+}
+
+.box-c2 {
+    top: 90px;
+    left: 70px;
+    z-index: 0;
+}
+
+.gap {
+    height: 50px;
+}
+
+

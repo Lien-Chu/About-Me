@@ -1,0 +1,87 @@
+@media (min-width: 426px) and (max-width: 1023px) {
+
+    
+.box-top {
+    width: 28vw;
+    height: 18vh;
+    border: 3px solid white;
+}
+
+.mittendiv {
+    width: 50vw;
+    height: 30vh;
+}
+
+.box-mitten {
+    width: 20vw;
+    height: 12vh;
+    border: 3px solid white;
+}
+
+.cirkel {
+    width: 20vw;
+    height: 12vh;
+    border: 3px solid white;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    .topdiv {
+        width: 70vw;
+    }
+    
+    .box-top {
+        width: 20vw;
+        height: 22vh;
+        border: 3px solid white;
+    }
+    
+    .mittendiv {
+        width: 30vw;
+        height: 30vh;
+    }
+    
+    .box-mitten {
+        width: 20vw;
+        height: 12vh;
+        border: 3px solid white;
+    }
+    
+    .cirkel {
+        width: 10vw;
+        height: 12vh;
+        border: 3px solid white;
+    }
+    }
+
+    @media (min-width: 1440px) {
+
+        .topdiv {
+            width: 60vw;
+        }
+        
+        .box-top {
+            width: 10vw;
+            height: 19vh;
+            border: 3px solid white;
+        }
+        
+        .mittendiv {
+            width: 30vw;
+            height: 30vh;
+        }
+        
+        .box-mitten {
+            width: 4vw;
+            height: 8vh;
+            border: 3px solid white;
+        }
+        
+        .cirkel {
+            width: 6vw;
+            height: 12vh;
+            border: 3px solid white;
+        }
+        
+        }

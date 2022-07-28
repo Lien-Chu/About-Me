@@ -1,0 +1,143 @@
+@media (min-width: 1120px) {
+
+    body {
+        background-image: url(/Images/Moment4/moment4-bg.jpg);
+    }
+
+    .wrapper {
+        background-color: rgba(255, 255, 255, 0.3);
+        width: 50%;
+    }
+    
+    .rubrik {
+        font-family: 'Josefin Sans';
+        font-size: 30px;
+        padding: 10px;
+        margin: 50px 8px;
+    }
+
+    .bild,
+    .text {
+        box-shadow: 22px 22px rgba(0, 0, 0, 0.5);
+        margin:0 0 40px 0;
+        opacity: 0.8;
+    }
+
+
+    .bilder-top,
+    .bilder-bottom {
+        width: 100%;
+        height: 300px;
+        margin: 40px 0;
+        justify-content:space-around ;
+    }
+
+    .bild-top-vänster {
+        width: 25%;
+        height: 60%;
+    }
+
+    .bild-top-mitten {
+        width: 25%;
+        height: 72%;
+    }
+
+    .bild-top-höger {
+        width: 25%;
+        height: 80%;
+    }
+
+    .bild-bottom-vänster {
+        width: 25%;
+        height: 80%;
+    }
+
+    .bild-bottom-höger {
+        width: 25%;
+        height: 80%;
+    }
+
+    .text {
+        height: auto;
+        background-color: rgba(76, 78, 79, 0.8);
+        color: white;
+    }
+
+    .texter-top {
+        width: 100%;
+        height: 420px;
+        margin-top: 40px;
+        justify-content:space-around ;
+    }
+
+    .texter-rubrik {
+        font-family: 'Josefin Sans';
+        font-size: 25px;
+        height: 50px;
+        border-radius: 50%;
+        padding-top: 5px;
+        margin: 10px 5px;
+        font-size: 25px;
+    }
+
+    .top-rubrik::first-letter {
+        color: rgb(250, 250, 119);
+        font-size: 30px;
+    }
+
+    .top-rubrik {
+        background-color: rgb(63, 98, 99);
+        box-shadow: inset 1px 1px 7px 8px rgb(116, 154, 159);
+        line-height: 35px;
+    }
+
+    .bottom-rubrik {
+        background-color: rgb(63, 98, 99);
+        box-shadow: inset 1px 1px 7px 8px rgb(116, 154, 159);
+        line-height: 40px;
+    }
+
+    .text-top-vänster {
+        width: 25%;
+        height: auto;
+       
+    }
+
+    .text-top-mitten {
+        width: 25%;
+        height: auto;
+    }
+
+    .text-top-höger {
+        width: 25%;
+        height: auto;
+    }
+
+    .text-p {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 0 6px 10px 6px;
+    }
+
+    .text-bottom-p::first-letter {
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .texter-bottom {
+        width: 100%;
+        height: 400px;
+    }
+
+    .text-bottom-vänster {
+        width: 30%;
+        height: auto;
+    }
+
+    .text-bottom-höger {
+        width: 33%;
+        height: auto;
+    }
+
+}

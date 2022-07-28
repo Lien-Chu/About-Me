@@ -1,0 +1,110 @@
+* {
+    font-family: 'Josefin Sans';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/Images/moment6.jpg");
+    /* background-image: url(/img/moment6.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+fieldset {
+    margin: 5px 10px 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+legend {
+    padding-top: 5px;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 7px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 70vh;
+    margin: auto;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: center;
+    height: 55px;
+    padding-top: 50px;
+}
+
+.formular {
+    background-color: rgba(67, 69, 69, 0.5);
+    width: 80%;
+    height: 300px;
+    margin: 80px auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 25px 0 30px;
+    width: 80%;
+    height: 15px;
+    font-size: 14px;
+    padding: 15px;
+    letter-spacing: 1px;
+    color: rgb(5, 5, 5);
+}
+
+input::placeholder {
+    color:  rgba(67, 69, 69, 0.5);
+    padding-left: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    margin: 15px 25px 0 35px;
+    font-size: 15px;
+}
+
+.buttons { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin:0 14px;
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    color: rgba(67, 69, 69, 0.8);
+    font-weight: bold;
+    font-size: 10px;
+}
+
+button:hover {
+    background-color: rgb(97, 99, 97);
+    color: rgb(249, 249, 249);
+}
+
+footer {
+    background-color: rgba(67, 69, 69, 0.7);
+    height: 15vh;
+    width: 100%;
+    color: white;
+    text-align: right;
+    padding: 10px 10px 0 0;
+    font-size: 10px;
+}

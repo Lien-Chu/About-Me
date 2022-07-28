@@ -51,7 +51,7 @@ footer p{
     padding: 0 20px 20px 20px;
     line-height: 25px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #knowledge {
@@ -84,18 +84,18 @@ table{
 th {
     height: 30px;
     width: 450px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 td {
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(112, 112, 137);
     font-weight: lighter;
 }
 
 .icon th { 
-    width: 90px;
-    height: 50px;
+    width: 80px;
+    height: 40px;
 }
 
 #me {
