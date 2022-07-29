@@ -78,7 +78,7 @@ footer p {
 input,
 textarea {
     width: 40vw;
-    margin: 10px 20px 10px 70px;
+    margin: 10px 50px;
     background-color: rgb(215, 224, 235);
     border: 2px solid rgb(226, 230, 233);
     color: rgb(53, 73, 92);
@@ -96,7 +96,7 @@ textarea {
 }
 
 input {
-    height:35px;
+    height: 35px;
     color: rgb(53, 73, 92);
 }
 
@@ -106,7 +106,7 @@ button[type="submit"] {
     width: 40vw;
     border: 2px solid;
     font-size: 20px;
-    margin: 20px 20px 10px 70px;
+    margin: 10px 50px;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -192,7 +192,7 @@ button:hover {
 }
 
 @media (min-width: 1024px) and (max-width: 1500px) {
-    
+
     .container {
         width: 40vw;
     }
@@ -217,7 +217,7 @@ button:hover {
 
 @media (min-width: 1501px) and (max-width: 2500px) {
     .container {
-        width: 35vw;
+        width: 30vw;
     }
 
     .form {
@@ -225,39 +225,39 @@ button:hover {
     }
 
     .form p {
-        width: 20vw;
+        width: 18vw;
     }
 
     input,
     textarea {
-        width: 20vw;
+        width: 18vw;
     }
 
     button[type="submit"] {
-        width: 20vw;
+        width: 18vw;
     }
 }
 
 
-@media (min-width: 2501px)  {
+@media (min-width: 2501px) {
     .container {
-        width: 30vw;
+        width:28vw;
     }
 
     .form {
-        width: 22vw;
+        width: 20vw;
     }
 
     .form p {
-        width: 17vw;
+        width: 15vw;
     }
 
     input,
     textarea {
-        width: 17vw;
+        width: 15vw;
     }
 
     button[type="submit"] {
-        width: 17vw;
+        width: 15vw;
     }
 }

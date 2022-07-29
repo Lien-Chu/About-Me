@@ -67,8 +67,12 @@
         font-size: 24px;
     }
 
+    .wrapper {
+        width: 70vw;
+    }
+
     .formular {
-        width: 30%;
+        width: 60%;
     }
 
     label {
@@ -96,7 +100,7 @@
     }
 
     .formular {
-        width: 30%;
+        width: 35%;
         height: 350px;
     }
 
@@ -112,7 +116,7 @@
 
     button {
         margin-right: 45px;
-        width: 100px;
+        width: 90px;
         height: 30px;
         font-size: 14px;
     }
@@ -125,13 +129,13 @@
     }
 
     .formular {
-        width: 30%;
+        width: 40%;
         height: 370px;
     }
 
     label {
-        font-size: 16px;
-        margin-left: 50px;
+        font-size: 20px;
+        margin-left: 80px;
     }
 
     input {
