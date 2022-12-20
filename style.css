@@ -46,7 +46,7 @@ footer p{
 }
 
 
-#Lienchu {
+#Lienchu,#astar {
     margin: 25px 0 30px 0;
     padding: 0 20px 20px 20px;
     line-height: 25px;
@@ -57,6 +57,7 @@ footer p{
 #knowledge {
     margin: 25px 0 30px 0;
     padding: 0 20px 20px 20px;
+    line-height: 30px;
 }
 
 .flexbox-container {
